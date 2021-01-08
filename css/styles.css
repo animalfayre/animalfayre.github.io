@@ -1,0 +1,275 @@
+/* Navbar Code */
+header a {
+    display: block;
+    font-family: 'Rancho', cursive;
+    font-size: 25px;
+    padding: 30px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #251605;
+}
+
+#logInBtns {
+    padding-top: 5px;
+}
+   
+header {
+    background-color: #83C8FF;
+    text-align: center;
+}
+
+.right {
+    float: right;
+    padding: 20px 30px 0px 0px;
+}
+
+.left {
+    padding: 30px 0px;
+}
+
+.log {
+    width: 170px;
+}
+
+.logo {
+    padding: 15px;
+}
+
+button {
+    background-color: #D6EDFF;
+    color: #251605;
+    border-width: 2px;
+    border-color: #251605;
+}
+
+button:hover {
+    background-color: #F6FEAA;
+    transition: 0.5s;
+}
+/* Navbar Code ends */
+
+#welcomeText {
+    text-align: right;
+    padding-right: 5px;
+}
+
+body {
+    background-color: rgb(231, 230, 230);
+}
+
+.container {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#animalImage {
+    border-radius: 25%;
+}
+
+#introText {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.footer {
+    position: relative;
+    font-family: 'Rancho', cursive;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #83C8FF
+}
+
+h2, h4{
+    font-family: 'Rancho', cursive;
+    color: #251605;
+}
+
+hr {
+    border-color: black;
+}
+
+#aboutUs h4 {
+    margin-bottom: 0px;
+}
+
+#aboutUs p {
+    font-style: italic;
+    font-size: 15px;
+}
+
+#aboutUsTxt p {
+    font-size: 20px;
+}
+
+#devImgs {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#signInForm input {
+    text-align: center;
+    width: 50%;
+    margin-top: 15px;
+}
+
+#signInForm button {
+    width: 24%;
+    margin-top: 15px;
+}
+
+#signUpForm input {
+    text-align: center;
+    width: 50%;
+    margin-top: 15px;
+}
+
+#signUpForm button {
+    width: 24%;
+    margin-top: 15px;
+}
+
+#passwordPopup {
+    display: none;
+}
+
+#passwordPopup input {
+    text-align: center;
+    width: 50%;
+    margin-top: 15px;
+}
+
+#passwordPopup button {
+    width: 24%;
+    margin-top: 15px;
+}
+
+#donationItem {
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#donationItem hr {
+    width: 80%;
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+#donationAnimal{
+    font-size: 50px;
+    font-family: 'Rancho', cursive;
+    margin-bottom: 0px;
+}
+
+#locationBtn {
+    background-color: #D6EDFF;
+    color: #251605;
+    border-width: 2px;
+    border-color: #251605;
+}
+
+#locationBtn:hover {
+    background-color: #F6FEAA;
+    transition: 0.5s;
+
+}
+
+#listHeading {
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-family: 'Rancho', cursive;
+}
+
+#listContents {
+    font-size: 15px;
+}
+
+#footerLogo {
+    width: 200px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#insideFooter {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#donationForm {
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 12%;
+    padding: 15px;
+}
+
+#donationForm input, select {
+    text-align: center;
+    width: 50%;
+}
+
+#donationForm h5 {
+    text-transform: capitalize;
+}
+
+#donationForm button {
+    width: 24%;
+    margin-top: 15px;
+}
+
+#donationBox {
+    text-align: center;
+    width: 375px;
+    height: 650px;
+    padding-left: 30px;
+    margin-left: 0px;
+}
+
+#footerImg {
+    width: 225px;
+    border-radius: 50%;
+}
+
+#footerLinks {
+    padding-top: 0px;
+    text-align: right;
+}
+
+#footerLinks a{
+    color: #251605;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+#footerLinks a:hover {
+    color: #F6FEAA;
+    transition: 0.5s;
+}
+
+#footerLinks a:active {
+    color: black;
+}
+
+#copyright {
+    font-family: 'Rancho', cursive;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#footerLinks h4{
+    color: #251605;
+    padding-top: 0px;
+    font-size: 40px;
+    margin-bottom: 5px
+}
